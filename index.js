@@ -38,6 +38,10 @@ console.log(currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!"); //
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
+console.log(currentHour >= 7 && currentHour < 24 ? "Unleash the beast!" : "Better stick to water.");
+// codition to for 2 checks current hour greater or equal to 7 and current hour less than 24 
+// && operator both coditions must be true for overall condition to be true
+//first expression is always true second is false
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
