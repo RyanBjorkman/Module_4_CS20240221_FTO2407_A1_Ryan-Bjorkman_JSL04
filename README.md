@@ -34,3 +34,5 @@ In each of these challenges, the ternary operator is used to decide between two 
 4. We will consider the commit history and meaningful commit messages to evaluate your coding process.
 
 Please follow the provided steps and guidelines to complete the Monster Ternary Operator challenge effectively. Your ability to use ternary operators for conditional logic is a valuable skill, and we look forward to reviewing your work.
+
+Cloned repo
