@@ -7,12 +7,18 @@
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
 console.log(userPreference ? userPreference : `Regular`); // userPreference ? Conditional part, checks if user is truthy, if truthy ternary operator returns userPreference if undifined returns Regular.
 
+// if (userPreference === ('Suger-free')) simple if else argument to check if userPreference is equal to sugar-free if it is anything else return regular.
+//   {console.log('Sugar-free')} else {
+//     console.log('Regular')
+//   }
+
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-console.log(cansLeft < 5 ? "Time to restock!" : "We're stocked!"); //condition cansLeft < 5 ? if true return time to restock, if false return we're stocked
+let stockTake = (cansLeft < 5 ? "Time to restock!" : "We're stocked!"); //condition cansLeft < 5 ? if true return time to restock, if false return we're stocked
+console.log(stockTake); // print stockTake condition result either true or false
 
 
 // #### Challenge 3: Workout Intensity
@@ -39,7 +45,7 @@ console.log(currentTemp <= 5 ? "Chilled to perfection!" : "Needs a cooler!"); //
 // Define the current hour in 24-hour format
 let currentHour = 22; 
 console.log(currentHour >= 7 && currentHour < 24 ? "Unleash the beast!" : "Better stick to water.");
-// codition to for 2 checks current hour greater or equal to 7 and current hour less than 24 
+// codition for 2 checks current hour greater or equal to 7 and current hour less than 24 
 // && operator both coditions must be true for overall condition to be true
 //first expression is always true second is false
 
